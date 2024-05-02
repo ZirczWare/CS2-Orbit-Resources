@@ -20,7 +20,6 @@
 267.969,1348.03,0.326977,Box CT,563.969,2275.82,291.376,Throw,de_dust2
 489.969,1599.98,1.7849,Site Peek A,-111.46,2230.35,555.948,Throw,de_dust2
 -275.031,1345.39,-122.58,CT Split,-809.787,1955.91,525.454,Throw,de_dust2
--275.031,1345.39,-122.58,CT Split,-809.787,1955.91,525.454,Throw,de_dust2
 -1332.03,491.969,8.03125,B window,-1324.21,1125.09,846.042,Jump Throw Perfect Timing,de_dust2
 -1332.03,491.969,8.03125,B Doors,-1309.05,1044.02,905.527,Jump Throw Perfect Timing,de_dust2
 -1279.77,2133.68,7.40474,CAT,-356.449,2062.77,446.452,Jump Throw Perfect Timing,de_dust2
@@ -71,21 +70,6 @@
 -1758.77,-1260.51,-32.6942,Temple Smoke,-1695.31,-383.134,505.021,Jumpthrow,de_ancient
 657.277,332.613,120.713,Double Door Smoke,1419,-314.161,222.632,Jumpthrow,de_ancient
 -66.0312,1290.03,32.5653,Highway  Smoke,69.359,415.808,561.108,Jumpthrow,de_ancient
-1422.97,34.4688,-167.969,Connector,551.657,-316.238,239.281,Jumpthrow,de_mirage
-1422.97,70.9688,-112.469,Middle,675.365,-186.232,563.852,Throw,de_mirage
-343.302,-621.619,-162.332,Window,-426.896,-599.567,520.359,Crouch + Throw,de_mirage
-815.969,-1416.63,-108.969,Jungle & Connector,-61.3654,-1530.1,421.302,Throw,de_mirage
-1135.97,647.975,-259.467,Short,354.717,378.133,365.846,Jumpthrow,de_mirage
--148.03,379.969,-34.4241,Short,-911.607,280.636,658.037,Throw,de_mirage
--161.033,576.153,-69.7675,Market Window,-1056.29,152.548,130.688,Jumpthrow,de_mirage
--160.031,887.969,-135.328,Market,-787.098,533.891,622.194,Jumpthrow,de_mirage
--624.46,615.969,-78.9718,Short Left,-875.449,568.684,950.807,Throw,de_mirage
--840.461,522.092,-76.8806,Short Right,-1299.48,896.636,789.372,Jumpthrow,de_mirage
-398.972,175.6,-247.84,B Site,-347.534,225.096,472.872,Jumpthrow,de_mirage
-360.075,-691.969,-163.355,Short,-496.333,-393.877,321.437,Throw,de_mirage
-907.922,-1036.12,-251.969,CT Spawn,130.815,-1630.93,11.0592,Jumpthrow,de_mirage
-872.209,-1036.03,-251.969,Stairs,486.413,-1183.51,715.76,Jumpthrow,de_mirage
-1383.47,70.9688,-167.969,Window,531.2,-178.808,355.651,D + Jumpthrow,de_mirage
 156.128,1043.95,86.5237,Halfwall,205.19,2035.47,269.408,Run and throw,de_inferno
 369.044,1663.17,134.031,CT,738.496,2422.16,734.167,(CT) Throw,de_inferno
 368.803,1663.1,134.031,Coffin,432.603,2602.5,534.865,(Coffin) W+Jumpthrow,de_inferno
@@ -279,14 +263,6 @@
 -879.85,-1306.03,-167.969,Palace,-246.351,-1913.98,374.658,Throw,de_mirage
 -496.031,-1309.03,-159.969,Triple,-741.114,-2260.78,88.729,Throw,de_mirage
 -1711.97,-761.032,-167.969,Palace,-1052.24,-1262.73,455.545,Jumpthrow,de_mirage
-1422.97,34.4688,-167.969,Connector,551.657,-316.238,239.281,Jumpthrow,de_mirage
-1422.97,70.9688,-112.469,Middle,675.365,-186.232,563.852,Throw,de_mirage
-1135.97,647.975,-259.467,Short,354.717,378.133,365.846,Jumpthrow,de_mirage
--148.03,379.969,-34.4241,Short,-911.607,280.636,658.037,Throw,de_mirage
--624.46,615.969,-78.9718,Short Left,-875.449,568.684,950.807,Throw,de_mirage
--840.461,522.092,-76.8806,Short Right,-1299.48,896.636,789.372,Jumpthrow,de_mirage
-398.972,175.6,-247.84,B Site,-347.534,225.096,472.872,Jumpthrow,de_mirage
-360.075,-691.969,-163.355,Short,-496.333,-393.877,321.437,Throw,de_mirage
 1296,32,-167.969,Window 1,447.758,-182.078,380.444,W jump throw,de_mirage
 1296,-352,-167.969,Window 2,563.137,-436.181,571.179,W jump throw,de_mirage
 1216,-16,-163.969,Window 3,501.389,-196.075,572.994,W jump throw,de_mirage
@@ -302,21 +278,6 @@
 1086.45,-1017.6,-258.124,CT,374.944,-1523.55,291.313,Jump throw,de_mirage
 -160.031,887.969,-135.329,Market Window,-708.201,524.315,681.522,Jump throw,de_mirage
 -160.748,887.969,-135.328,Market Door,-817.915,537.094,595.449,Jump throw,de_mirage
-1422.97,34.4688,-167.969,Connector,551.657,-316.238,239.281,Jumpthrow,de_mirage
-1422.97,70.9688,-112.469,Middle,675.365,-186.232,563.852,Throw,de_mirage
-343.302,-621.619,-162.332,Window,-426.896,-599.567,520.359,Crouch + Throw,de_mirage
-815.969,-1416.63,-108.969,Jungle & Connector,-61.3654,-1530.1,421.302,Throw,de_mirage
-1135.97,647.975,-259.467,Short,354.717,378.133,365.846,Jumpthrow,de_mirage
--148.03,379.969,-34.4241,Short,-911.607,280.636,658.037,Throw,de_mirage
--161.033,576.153,-69.7675,Market Window,-1056.29,152.548,130.688,Jumpthrow,de_mirage
--160.031,887.969,-135.328,Market,-787.098,533.891,622.194,Jumpthrow,de_mirage
--624.46,615.969,-78.9718,Short Left,-875.449,568.684,950.807,Throw,de_mirage
--840.461,522.092,-76.8806,Short Right,-1299.48,896.636,789.372,Jumpthrow,de_mirage
-398.972,175.6,-247.84,B Site,-347.534,225.096,472.872,Jumpthrow,de_mirage
-360.075,-691.969,-163.355,Short,-496.333,-393.877,321.437,Throw,de_mirage
-907.922,-1036.12,-251.969,CT Spawn,130.815,-1630.93,11.0592,Jumpthrow,de_mirage
-872.209,-1036.03,-251.969,Stairs,486.413,-1183.51,715.76,Jumpthrow,de_mirage
-1383.47,70.9688,-167.969,Window,531.2,-178.808,355.651,D + Jumpthrow,de_mirage
 -404.488,-1051.96,128.031,Box Mid Smoke,-361.833,-59.8036,309.516,Jump Throw,de_dust2
 -299.969,-1163.97,77.6833,Box Mid Smoke,-301.412,-187.845,353.537,Jump Throw,de_dust2
 707.969,-363.031,7.81154,Box Mid Smoke,264.374,512.879,260.972,Jump Throw,de_dust2
@@ -445,3 +406,4 @@
 1235.97,2561.03,99.6024,(smoke) A short,437.113,1989.89,351.346,JumpThrow,de_dust2
 489.968,1755.79,103.031,(smoke) Suicide,94.9628,1106.37,816.817,Throw,de_dust2
 -1175.97,1334.03,-108.655,(smoke) lower,-378.171,996.332,453.052,left click,de_dust2
+814.114,-1549.84,-108.969,Stairs,-182.677,-1578.26,29.8712,Jumpthrow(Left=Jungle, Middle=Stairs),de_mirage
