@@ -212,3 +212,19 @@
 -1273.97,2575.97,70.3976,Multiple,-531.812,1983.5,452.004,Jumpthrow (A Short Catwalk),de_dust2
 -1273.97,2575.97,70.3976,Multiple,-601.029,2641.95,865.569,Throw (B Site),de_dust2
 -1273.97,2575.97,70.3976,Multiple,-398.12,2377.56,569.324,Jumpthrow (A Main),de_dust2
+-1499.89,1479.97,-170.969,Multiple,-898.871,868.369,406.387,Jumpthrow (Connector),de_train
+-1499.89,1479.97,-170.969,Multiple,-712.558,1041.07,324.863,Jumpthrow (Deep Tunnel),de_train
+-427.969,1777.97,-209.969,Multiple,-420.711,781.129,-67.0164,Jumpthrow (Red Train),de_train
+-427.97,1777.97,-209.969,Multiple,-415.588,792.123,21.0714,Jumpthrow (Ladder Room),de_train
+-427.972,1777.8,-209.969,Multiple,-87.6737,849.627,4.48647,Jumpthrow (Connector),de_train
+-362.031,1384.03,-160.967,Multiple,-397.676,548.483,451.13,Throw (Ladder Room),de_train
+-362.033,1384.05,-160.967,Multiple,-399.467,525.906,414.916,Throw (Train Gap),de_train
+-835.15,1285.03,-207.969,Middle,-275.143,734.517,467.002,Throw,de_train
+-714.046,-597.929,-64.4151,Tunnel,-98.6881,-291.564,717.923,Throw (Break Glass!),de_train
+-1145.96,-1186.54,-101.969,Connector,-189.888,-973.185,162.864,Run 0.2s + Throw,de_train
+-769.011,-238.301,16.8142,Connector,98.7979,-735.152,72.9773,Jumpthrow (Break Glass!),de_train
+-1145.96,-762.81,-96.3585,Entry,-200.34,-974.792,-282.91,Crouch + Throw,de_train
+-1145.97,-1015.29,-100.914,Multiple,-151.884,-1018.37,70.4343,Throw (Left Entry),de_train
+-1145.97,-1015.29,-100.914,Multiple,-154.604,-1083.66,73.7736,Throw (Right Entry),de_train
+-1053.53,-1076.92,-61.9688,Right Entry,-53.5383,-1080.55,4.73648,Throw,de_train
+1767.97,-1099.97,-319.253,T Main,1044.18,-1137.83,431.658,D 0.75s + Jumpthrow,de_train
