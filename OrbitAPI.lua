@@ -87,6 +87,12 @@ function ReadPointer(Address) end
 ---@return Vec3
 function ReadVector3D(Address) end
 
+---@return number
+function GetClientDLL() end
+
+---@return number
+function GetEngine2DLL() end
+
 --"Print" achieves the same as 'print' but in Orbit's built in console
 --The "Print" function only accepts strings as an argument 
 --You cannot pass it a number and hope it will convert it to a string automatically 
