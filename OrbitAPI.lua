@@ -100,6 +100,9 @@ function GetEngine2DLL() end
 ---@param String string
 function Print(String) end
 
+--Clears Orbit's build in console
+function Clear() end
+
 --"GetLocalInfo" returns a table of 4 elements
 --1 returns the local pawn address
 --2 returns the local controller address
@@ -343,8 +346,9 @@ function GetAppDataDirectory() end
 
 --"DirectoryExists" in combination with "GetAppDataDirectory" can tell you if a download was successful or not 
 --A failed download can be a result of 2 things: http functions are disabled, download link is invalid
+---@param Directory string
 ---@return boolean
-function DirectoryExists() end
+function DirectoryExists(Directory) end
 
 --"PlaySound" lets you play a sound file 
 --You don't need to specify a path if the sound file is where Orbit is located
