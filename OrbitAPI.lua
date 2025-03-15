@@ -354,3 +354,11 @@ function DirectoryExists(Directory) end
 --You don't need to specify a path if the sound file is where Orbit is located
 ---@param PathToFile string
 function PlaySound(PathToFile) end
+
+---@param From Vec3
+---@param To Vec3
+---@return boolean
+function RayCast(From, To) end
+
+---@return number
+function GetTime() end
