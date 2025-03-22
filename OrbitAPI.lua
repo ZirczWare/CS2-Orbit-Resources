@@ -355,10 +355,14 @@ function DirectoryExists(Directory) end
 ---@param PathToFile string
 function PlaySound(PathToFile) end
 
+--"RayCast" uses the built in VPK Parser in Orbit to perform a visible check based on the arguments, which are 2 Vector3D objects.
+--The return value is a bool, true if visible, false if not.
 ---@param From Vec3
 ---@param To Vec3
 ---@return boolean
 function RayCast(From, To) end
 
+--"GetTime" simply returns the time since epoch with millisecond accuracy.
+--Can be used to do simple timers in LUA.
 ---@return number
 function GetTime() end
