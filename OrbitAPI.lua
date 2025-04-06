@@ -366,3 +366,15 @@ function RayCast(From, To) end
 --Can be used to do simple timers in LUA.
 ---@return number
 function GetTime() end
+
+--"GetWeaponType" returns what type of weapon the local player has
+--The index is calculated in cpp, so it starts from 0
+--Pistol - 0
+--HeavyPistol - 1
+--SMG - 2
+--Rifle - 3
+--Sniper - 4
+--Shotgun - 5
+--MachineGun - 6
+---@return number
+function GetWeaponType() end
