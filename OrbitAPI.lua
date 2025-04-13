@@ -222,6 +222,8 @@ function SetConfigFloat(ConfigElement, Value) end
 ---@param Value Col
 function SetConfigColor(ConfigElement, Value) end
 
+--This function is deprecated as of Orbit V9.5.8
+--Menu element creation is handled by Orbit automatically
 --Reserve space in memory for menu elements to be created
 --If not done correctly, can cause menu related bugs and glitches
 ---@param Size integer
