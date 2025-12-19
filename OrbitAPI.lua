@@ -96,11 +96,11 @@ function GetEngine2DLL() end
 --"Print" achieves the same as 'print' but in Orbit's built in console
 --The "Print" function only accepts strings as an argument 
 --You cannot pass it a number and hope it will convert it to a string automatically 
---You can use the built in "tostring" function to convert the arguments into strings
+--You can use the built in "tostring" function in lua to convert the arguments (variable by variable)
 ---@param String string
 function Print(String) end
 
---Clears Orbit's build in console
+--Clears Orbit's built in console
 function Clear() end
 
 --"GetLocalInfo" returns a table of 4 elements
@@ -125,13 +125,6 @@ function GetEntities() end
 ---@return boolean
 function IsVisible(EntityIndex) end
 
---"SetWhiteList" can make an entity be completely ignored by Orbit
---It takes in the entities table index - 1, and an int state as arguments
---1 is true, 0 is false
----@param TableIndex integer
----@param State integer
-function SetWhiteList(TableIndex, State) end
-
 ---@param Position Vec3
 ---@return Vec2
 function WorldToScreen(Position) end
@@ -142,7 +135,7 @@ function WorldToScreen(Position) end
 ---@param Center boolean
 function Text(Text, Position, Color, Center) end
 
---"sizeoffset" is the offset by which you shift the size of the icon to make it bigger or lower
+--"sizeoffset" is the offset by which you shift the size of the icon to make it bigger or smaller
 --A "sizeoffset" value of 0 means the size of the icon is the default which Orbit uses
 ---@param WeaponIndex integer
 ---@param Position Vec2
@@ -263,7 +256,7 @@ function ColorPicker(Name, Default) end
 function CreateDropDown(Name, Elements, Default) end
 
 --"CreateText" lets you organize the lua tab to your needs
---You can skip rows with empty text elements if you wanted to, better label features etc
+--You can skip rows with empty text elements if you want to, better label features etc
 ---@param Text string
 function CreateText(Text) end
 
@@ -292,18 +285,18 @@ function GetSliderFloat(Name) end
 function GetColorPicker(Name) end
 
 --If you are confused by what this is, just note that it returns the current index of the table of possible elements 
---This is done in the c++ code, not in lua, therefore the first index is 0 here
+--This is done in c++ code, not in lua, therefore the first index is 0 here
 ---@param Name string
 ---@return integer
 function GetDropDown(Name) end
 
---"GetKeyBind" returns whether or not a keybind's value is pressed or not
+--"GetKeyBind" returns whether or not a keybind is active
 ---@param Name string
 ---@return boolean
 function GetKeyBind(Name) end
 
 --"MoveMouse" takes in 2 ints as an argument and moves the mouse accordingly 
---When the menu is open, this function will be skipped If the value of the arguments are too high, it will be skipped as well
+--When the menu is open, or if the value of the arguments are too high this function will be skipped
 ---@param X integer
 ---@param Y integer
 function MoveMouse(X, Y) end
@@ -380,3 +373,12 @@ function GetTime() end
 --MachineGun - 6
 ---@return number
 function GetWeaponType() end
+
+--Returns a referenced table of strings
+--Contains the names of players that are spectating the local player
+---@return table
+function GetSpectators() end
+
+--Returns the local player's viewangles somewhat accounting for recoil
+---@return Vec3
+function GetRCSViewAngles() end
