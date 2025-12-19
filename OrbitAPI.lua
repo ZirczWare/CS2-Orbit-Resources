@@ -296,7 +296,7 @@ function GetDropDown(Name) end
 function GetKeyBind(Name) end
 
 --"MoveMouse" takes in 2 ints as an argument and moves the mouse accordingly 
---When the menu is open, or if the value of the arguments are too high this function will be skipped
+--When the menu is open, or if the values of the arguments are too high this function will be skipped
 ---@param X integer
 ---@param Y integer
 function MoveMouse(X, Y) end
